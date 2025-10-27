@@ -1,0 +1,24 @@
+{
+  "name": "ecommerce-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"npm run dev --prefix ecommerce-backend\" \"npm run dev --prefix ecommerce-project\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maciejmrozgg/ecommerce-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maciejmrozgg/ecommerce-project/issues"
+  },
+  "homepage": "https://github.com/maciejmrozgg/ecommerce-project#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
